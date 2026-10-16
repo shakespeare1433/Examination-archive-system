@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Umma Archive",
+    "slug": "umma-archive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash_bg.webp",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash_bg.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#f8f9ff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash_bg.webp",
+        "backgroundColor": "#f8f9ff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/splash_bg.webp"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Umma Archive to use a photo for your profile."
+        }
+      ]
+    ]
+  }
+}
